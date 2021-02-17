@@ -1,0 +1,190 @@
+.row {
+  margin: 0px;
+}
+.app {
+  background-color: #faf9ff;
+  overflow-x: hidden;
+}
+
+.navbar_ain {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10%;
+  color: #333;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.nav_tabs {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+  text-transform: capitalize;
+}
+.navtab {
+  color: #333;
+  font-weight: 800;
+}
+.navtab:hover {
+  color: #333;
+  font-weight: 800;
+  text-decoration: none;
+  border-bottom: 2px solid #333;
+}
+.hoe {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+}
+.buttons-div {
+  display: flex;
+}
+.buttons {
+  align-items: center;
+  display: flex;
+  color: #333;
+  margin: 20px;
+  text-transform: capitalize;
+  padding: 12px;
+  font-weight: 600;
+  border-radius: 58px;
+  background: transparent;
+  box-shadow: -12px -9px 17px #fff, 7px 7px 10px #c6c5c9;
+}
+.home {
+  text-transform: capitalize;
+}
+.home-container {
+  padding: 10px 0px;
+  margin: 10px;
+}
+.home > h6 {
+  padding: 13px 0px;
+  margin: 10px;
+}
+.about,
+.skills,
+.services {
+  color: #868686;
+  /* background-color: #faf9ff; */
+ padding: 30px;
+}
+.centere {
+  display: flex;
+  align-items: center;
+  color: #333;
+  justify-content: center;
+}
+.aboutcard {
+  box-shadow: 15px 15px 25px #ffffff, -10px -10px 31px #e4e4e4;
+  margin: 50px 0px;
+  width: fit-content;
+}
+.about-content {
+  color: #333;
+  text-transform: capitalize;
+  padding: 30px;
+  text-align: justify;
+}
+.about-content > h3 {
+  font-weight: 800;
+  padding: 15px 0px;
+}
+.about-content > h6 {
+  font-weight: 600;
+  padding: 5px 0px;
+}
+.about-content > p {
+  font-weight: 500;
+  padding: 15px 0px;
+  line-height: 2;
+}
+.contact-head {
+  width: 100%;
+  border-radius: 50px;
+  height: fit-content;
+  padding: 15px;
+  margin: 20px 0px;
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: 800;
+  color: #333;
+  text-align: center;
+}
+.shadow {
+  box-shadow: 3px 8px 6px #dedee0, -4px -10px 8px #ffffff;
+}
+.contact-cell {
+  padding: 15px;
+  color: #333;
+  text-transform: capitalize;
+  font-weight: 600;
+  line-height: initial;
+  margin: 10px;
+  border-radius: 50px;
+  box-shadow: 3px 8px 6px #ababab, -4px -10px 8px #ffffff;
+}
+.contact-div {
+  display: flex;
+  align-items: center;
+}
+.contact-i {
+  width: 15px;
+}
+.social {
+  box-shadow: 3px 8px 6px #ffffff, -4px -10px 8px #e4e4e4,
+    inset 3px 8px 16px #fbfbfb, inset -4px -10px 8px #e6e6e6;
+}
+.social-icons {
+  width: 21px;
+}
+.social-icons1 {
+  width: 18px;
+}
+.contact-text {
+  padding: 0px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.social-media {
+  display: flex;
+  padding: 5px 0px;
+}
+.form-div {
+  display: block;
+}
+.send {
+  margin: 20px 0px;
+  justify-content: center;
+}
+.form-div > label {
+  display: block;
+  padding: 10px 0px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.form-div > input {
+  outline: none;
+  border: 0px;
+  outline: none;
+  background: transparent;
+  border: 0px;
+  color: #868686;
+  border-radius: 10px;
+  box-shadow: inset 3px 3px 6px #ababab, inset -14px -14px 7px #ffffff;
+  padding: 7px 20px;
+  width: 100%;
+  padding: 7px 20px;
+  width: 100%;
+}
+.copy {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 25px;
+}
